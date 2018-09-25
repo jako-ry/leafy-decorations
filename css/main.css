@@ -23,7 +23,9 @@ html {
 }
 
 .banner {
-
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .banner-content {
