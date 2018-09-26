@@ -38,13 +38,20 @@ html {
 
 .banner {
   background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: bottom center;
   background-repeat: no-repeat;
   color: #fff;
-  border-bottom: 3px solid #2d5a4d;
+  border-bottom: 3px solid #467366;
+  padding-top: 180px;
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg"), linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
+  background-size: 98px, auto;
+  background-position: top left .75em, center;
+  background-repeat: no-repeat;
+  padding-top: 120px;
 }
 
 @media only screen and (min-width: 60em) {
